@@ -20,6 +20,7 @@ export async function getPanorama(prompt: string, style_id: number = 119) {
     }
   );
 
+  
   const responseJSON = await response.json();
   console.log(responseJSON);
   const id = responseJSON?.id;
